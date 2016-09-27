@@ -1,22 +1,70 @@
-body {
-		font-family: "Open Sans"; margin-left: 70px;
-     }
-
-
-.head	{
-	text-align: center;
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
-p, td, li {
+html, 
+body {
+	font-family: "Open Sans", Verdana, Arial; 
+  font-size: 16px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
 
-	color: #515151;
-	max-width: 1100px;
-	text-align: center;
-	padding-right: 15px;
-  }
+h1, 
+h2, 
+h3 {
+  color: #48C0D6;
+  text-align: center;
+  font-size: 40px;
+}
+
+p, 
+td, 
+li {
+  color: #515151;
+  max-width: 1100px;
+  text-align: center;
+  padding-right: 15px;
+}
 
 p {
-	font-size: 20px;
+  font-size: 20px;
+}
+
+
+.header	{ 
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+  .header--title { 
+    font-size: 3.5rem;
+    padding: 3rem 0;
+    margin: 1rem 0;
+  }
+
+  .header--profile {
+    border-radius: 50%;
+    width: 24rem;
+    margin: 2rem 0;
+  }
+
+.description--title {
+  font-size: 3.5rem;
+  padding: 2rem 0;
+}
+
+.description--bio {
+  font-size: 1.4rem;
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1.5rem 5rem;
+  line-height: 41px;
 }
 
 .courses img {
@@ -25,13 +73,41 @@ p {
 	max-width: 300px;	
 }
 
-.studies img {
-	max-width: 80%;	
+.studies--container {
+  background: white;
+  margin: 4rem 0;
+  padding: 5rem 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
-.latam	{
-	max-height: 200px;
+  .studies--title {
+    font-size: 3.5rem;
+    padding: 2rem 0;
+    margin: 1rem 0;
+  }
+
+  .studies img {
+  	max-width: 80%;	
+  }
+
+.itesm, .iteso {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49.8%;
+  text-align: center;
 }
+  .itesm > img,
+  .iteso > img {
+    width: 40rem;
+    height: 20rem;
+  }
+
+  .itesm--title, .iteso--title {
+    font-size: 1rem;
+  }
+
+.latam	{ max-height: 200px; }
 
 .square {
 	width: 250px;
@@ -47,12 +123,6 @@ p {
 	max-width: 90%;
 }
 
-
-h1, h2, h3 {
-			color:48C0D6;
-			text-align: center;
-			font-size: 40px;
-}
 
 .line li {
 
