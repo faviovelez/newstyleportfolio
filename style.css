@@ -1,0 +1,62 @@
+body {
+		font-family: "Open Sans"; margin-left: 70px;
+     }
+
+
+.head	{
+	text-align: center;
+}
+
+p, td, li {
+
+	color: #515151;
+	max-width: 1100px;
+	text-align: center;
+	padding-right: 15px;
+  }
+
+p {
+	font-size: 20px;
+}
+
+.courses img {
+	text-align: center;
+	display: inline-block;
+	max-width: 300px;	
+}
+
+.studies img {
+	max-width: 80%;	
+}
+
+.latam	{
+	max-height: 200px;
+}
+
+.square {
+	width: 250px;
+	height: 250px;
+	background: #48C0D6;
+	display:inline-block;
+	margin-right: 20px;
+	padding-right: 20px;
+}
+
+.center {
+	text-align: center;
+	max-width: 90%;
+}
+
+
+h1, h2, h3 {
+			color:48C0D6;
+			text-align: center;
+			font-size: 40px;
+}
+
+.line li {
+
+	display: inline-block;
+	text-align: center;
+}
+

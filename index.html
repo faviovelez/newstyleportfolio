@@ -1,62 +1,95 @@
-<!DOCTYPE html>
+</!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>My portfolio</title>
-	<style>
-		body {
-			color:white; background-color: black; font-family: Arial; text-align: justify;
-
-		}
-		h2, h3 {
-			color:gray;
-		}
-	</style>
+	<title>My portfolio</title>	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-	<h1>Favio Velez Morales</h1>
-	<img src="img/Foto-linkedinBN.jpg" alt="Favio, picture B&N">
+	<div class="head">
+		<h1>Favio Velez Morales</h1>
+		<img src="img/Foto-linkedin.jpg" alt="My profile picture">
+	</div>
 
 	<h2>Un poco de mi</h2>
 	<p>Nací en San Juan Puerto Rico hace 32 años, pero he vivido en Guadalajara casi toda mi vida. Me gusta estar en actividad constante (ya sea mental o física) y soy una persona competitiva. Me gusta viajar (aunque no lo hago tan a menudo como quisiera). Estoy en busca de cambios radicales en mi vida, entre ellos ser emprendedor de una empresa tecnológica.</p>
 	
 	<h2>Estudios</h2>
-	<ul>
-		<li>Maestría en Administración de Empresas (MBA), ITESM (2014)</li>
-		<li>Licenciatura en Mercadotecnia, ITESO (2005)</li>
-	</ul>
+	
+	<table class="courses studies">
+		<tbody>
+			<tr>
+				<td><img src="img/tec.png" alt="Tec de Monterrey Logo "></td>
+				<td><img src="img/iteso.jpg" alt="ITESO Logo"></td>
+			</tr>
+			<tr>
+				<td>Maestría en Administración de Empresas (MBA), ITESM (2014)</td>
+				<td>Licenciatura en Mercadotecnia, ITESO (2005)</td>
+			</tr>
+		</tbody>
+	</table>
+
 	
 		<h2>Otros cursos</h2>
-		<ul>
-		<li>Full-Stack developer, Desafío Latam (2016)</li>
-		<li>Seminario de Marketing ROI, Kätedra (2013)</li>
-		<li>Balanced Scorecard Master Course, IRR México (2012)</li>
-		<li>Desarrollo de habilidades de Liderazgo, Apoyo en Capital Intelectual (2009)</li>
-		<li>Project Management, Global Project Solutions (2009) </li>
-	</ul>
-	
+
+		<table class="courses studies">
+			<tbody>
+				<tr>
+					<td><img src="img/desafiolatam.jpg" alt="Desafio Latam Logo" class="latam"></td>
+					<td><img src="img/logo_katedra.jpg" alt="Kätedra Logo"></td>
+					<td><img src="img/iir.jpg" alt="IIR Mexico Logo"></td>
+				</tr>
+				<tr>
+					<td>Full-Stack developer, Desafío Latam (2016)</td>
+					<td>Seminario de Marketing ROI, Kätedra (2013)</td>
+					<td>Balanced Scorecard Master Course, IIR México (2012)</td>
+				</tr>
+			</tbody>
+		</table>
+
 	
 	<h2>Habilidades</h2>
-	<ul>
-		<li>Negociación</li>
-		<li>Solución de problemas complejos</li>
-		<li>Creación de estrategias</li>
-	</ul>
 	
+	<div class="square">
+		<p>Negociación</p>
+	</div>
+
+	<div class="square">
+		<p>Solución de problemas complejos</p>
+	</div>
+
+	<div class="square">
+		<p>Creación y ejecución de estrategias de marketing</p>
+	</div>
+
+
 	<h2>Aficiones</h2>
-	<ul>
-		<li>Poker</li>
-		<li>Fútbol Americano</li>
-		<li>Patinaje sobre ruedas</li>
-	</ul>
+		<table class="courses studies">
+			<tbody>
+				<tr>
+					<td><img src="img/poker.jpg" alt="Poker picture"></td>
+					<td><img src="img/ravens.jpg" alt="Baltimore Ravens picture"></td>
+					<td><img src="img/skates.jpeg" alt="Skate picture"></td>
+				</tr>
+				<tr>
+					<td>Poker (Texas Hold'em)</td>
+					<td>Fútbol Americano</td>
+					<td>Patinaje sobre ruedas</td>
+				</tr>
+			</tbody>
+		</table>
 	
 	<h2>Contacto</h2>
-	<ul>
+	
+<div class="center">
+	<ul class="line">
 		<li>Cel:044 333-814-3330</li>
 		<li>Email: favio.velez@hotmail.com</li>
 		<li>Linkedin: <a href="http://mx.linkedin.com/in/faviovelez" target="_blank">mx.linkedin.com/in/faviovelez</a></li>
 	</ul>
-	
+</div>
+
 </body>
 </html>
