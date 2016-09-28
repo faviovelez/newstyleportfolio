@@ -4,125 +4,153 @@
 	<meta charset="UTF-8">
 	<title>My portfolio</title>	
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="vendor/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+
 	<!-- Navigation -->
 	<nav class="nav">
 		<section class="brand">
-			<h1>Favio</h1>
+			<h1 class="logo"><a href="index.html">Favio</a></h1>
 		</section>
 
 		<section class="navigation--bar">
-			<div class="article">Home</div>
-			<div class="article">About Us</div>
-			<div class="article">Gallery</div>
-			<div class="article">Contact</div>
+			<div class="article">Un poco de mi</div>
+			<div class="article">Estudios</div>
+			<div class="article">Habilidades</div>
+			<div class="article">Contacto</div>
 		</section>
 	</nav>
 	<!-- End of Navigation -->
 
+
   <!-- Header Section -->
-	<section class="header">
-		<h1 class="header--title">Favio Velez Morales</h1>
-		<img class="header--profile" src="img/Foto-linkedin.jpg" alt="My profile picture">
+	<section class="header--container">
+		<h1 class="header title">Favio Velez Morales</h1>
+		<img class="header--picture" src="img/Foto-linkedin.jpg" alt="My profile picture">
 	</section>
   <!-- End of Header -->
+
   
   <!-- Bio Section -->
-	<h2 class="description--title">Un poco de mí</h2>
+	<h2 class="description title">Un poco de mí</h2>
 	<article class="description--bio">Nací en San Juan Puerto Rico hace 32 años, pero he vivido en Guadalajara casi toda mi vida. Me gusta estar en actividad constante (ya sea mental o física) y soy una persona competitiva. Me gusta viajar (aunque no lo hago tan a menudo como quisiera). Estoy en busca de cambios radicales en mi vida, entre ellos ser emprendedor de una empresa tecnológica.</article>
 	<!-- End of Bio -->
 
+
   <!-- Studies Section -->
 	<section class="studies--container">
-    <h2 class="studies--title">Estudios</h2>
+    	
+    	<h2 class="studies title">Estudios</h2>
+   		<section class="studies--body">
 
-    <section class="course studies">
-      <div class="itesm">
-        <img src="img/tec.png" alt="Tec de Monterrey Logo ">
-        <h3 class="itesm--title">
-          Maestría en Administración de Empresas (MBA), ITESM (2014)
-        </h3>
-        <a href="http://www.itesm.edu.mx" class="btn--itesm">Visitar</a>
+      <div class="school">
+        <img src="img/tec.jpg" alt="Tec de Monterrey Logo ">
+        <p>Maestría en Administración de Empresas (2014)</p>
+        <a href="http://www.itesm.mx/wps/wcm/connect/campus/gda/guadalajara" class="btn--school" target="_blank">Visitar</a>
       </div>
-      <div class="iteso">
+
+      <div class="school">
         <img src="img/iteso.jpg" alt="ITESO Logo">
-        <h3 class="iteso--title">
-          Licenciatura en Mercadotecnia, ITESO (2005)
-        </h3>
-        <a href="http://www.itesm.edu.mx" class="btn--itesm">Visitar</a>
+        <p>Licenciatura en Mercadotecnia (2005)</p>
+        <a href="https://www.iteso.mx/" class="btn--school" target="_blank">Visitar</a>
       </div>
-    </section>
 
-  </section>
+    </section>
+  </section>  
   <!-- End of Studies -->
 
-	
-		<h2>Otros cursos</h2>
 
-		<table class="courses studies">
-			<tbody>
-				<tr>
-					<td><img src="img/desafiolatam.jpg" alt="Desafio Latam Logo" class="latam"></td>
-					<td><img src="img/logo_katedra.jpg" alt="Kätedra Logo"></td>
-					<td><img src="img/iir.jpg" alt="IIR Mexico Logo"></td>
-				</tr>
-				<tr>
-					<td>Full-Stack developer, Desafío Latam (2016)</td>
-					<td>Seminario de Marketing ROI, Kätedra (2013)</td>
-					<td>Balanced Scorecard Master Course, IIR México (2012)</td>
-				</tr>
-			</tbody>
-		</table>
-
+	<!-- Other courses section -->
+	<section class="courses--container">
 	
-	<h2>Habilidades</h2>
-	
-<div class="center2">
+		<h2 class="courses title">Otros cursos</h2>
+		<section class="courses--body">
+			
+		<div class="courses">
+			<img src="img/desafiolatam.jpg" alt="Desafio Latam Logo">
+			<p>Full-Stack developer, Desafío Latam (2016)</p>
+		</div>
 
-	<div class="square">
-		<p class="white">Negociación, ventas y comunicación asertiva</p>
+		<div class="courses">
+			<img src="img/logo_katedra.jpg" alt="Kätedra Logo">
+			<p>Seminario de Marketing ROI, Kätedra (2013)</p>
+		</div>
+
+		<div class="courses">
+			<img src="img/iir.jpg" alt="IIR Mexico Logo">
+			<p>Balanced Scorecard Master Course, IIR México (2012)</p>
+		</div>
+	
+		</section>
+	</section>
+	<!-- End of Other courses section -->
+
+
+	<!-- Skills section -->
+	<section class="skills--container">
+
+		<h2 class="skills title">Habilidades</h2>
+
+    <div class="skill one">
+      <p>Negociación, ventas y comunicación asertiva</p>
+    </div>
+      
+    <div class="skill two">
+      <p>Solución de problemas complejos</p>
+    </div>
+
+    <div class="skill three">
+      <p>Creación y ejecución de estrategias de marketing</p>
+    </div>
+	</section>
+	<!-- End of Skills section -->
+
+
+	<!-- Hobbies section -->
+
+	<section class="hobbies--container">
+
+		<h2 class="hobbies title">Aficiones</h2>
+		<section class="hobbies--body">
+			
+			<div class="hobbies">
+				<img src="img/poker.jpg" alt="Poker picture">
+				<p>Poker (Texas Hold'em)</p>
+			</div>
+			
+			<div class="hobbies">
+				<img src="img/ravens.jpg" alt="Baltimore Ravens picture">
+				<p>Fútbol Americano</p>
+			</div>
+			
+			<div class="hobbies">
+				<img src="img/skates.jpeg" alt="Skate picture">
+				<p>Patinaje sobre ruedas</p>
+			</div>
+
+		</section>	
+	</section>
+<!-- End of Hobbies section -->
+
+
+<!-- Contact section -->
+
+<section class="contact--container">
+	
+	<h2 class="contact title">Contacto</h2>
+	
+	<div class="contact--body">
+		<p>Cel:044 333-814-3330</p>
+		<p>Email: favio.velez@hotmail.com</p>
+		<p>Linkedin: <a href="http://mx.linkedin.com/in/faviovelez" target="_blank" class="link">mx.linkedin.com/in/faviovelez</a></p>
 	</div>
 
-	<div class="square">
-		<p class="white">Solución de problemas complejos</p>
-	</div>
-
-	<div class="square">
-		<p class="white">Creación y ejecución de estrategias de marketing</p>
-	</div>
-
-</div>
-
-	<h2>Aficiones</h2>
-		<table class="courses studies">
-			<tbody>
-				<tr>
-					<td><img src="img/poker.jpg" alt="Poker picture"></td>
-					<td><img src="img/ravens.jpg" alt="Baltimore Ravens picture"></td>
-					<td><img src="img/skates.jpeg" alt="Skate picture"></td>
-				</tr>
-				<tr>
-					<td>Poker (Texas Hold'em)</td>
-					<td>Fútbol Americano</td>
-					<td>Patinaje sobre ruedas</td>
-				</tr>
-			</tbody>
-		</table>
-	
-	<h2>Contacto</h2>
-	
-<div class="center">
-	<ul class="line">
-		<li>Cel:044 333-814-3330</li>
-		<li>Email: favio.velez@hotmail.com</li>
-		<li>Linkedin: <a href="http://mx.linkedin.com/in/faviovelez" target="_blank">mx.linkedin.com/in/faviovelez</a></li>
-	</ul>
-</div>
+</section>
+<!-- End of Contact section -->
 
 </body>
+
 </html>

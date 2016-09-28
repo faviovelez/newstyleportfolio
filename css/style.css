@@ -5,146 +5,20 @@ body {
   border: 0;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-h1, 
-h2, 
-h3 {
-  color: #48C0D6;
-  text-align: center;
-  font-size: 40px;
-}
-
-p, 
-td, 
-li {
-  color: #515151;
-  max-width: 1100px;
-  text-align: center;
-  padding-right: 15px;
-}
 
 p {
+  color: #515151;
+  text-align: center;
   font-size: 20px;
 }
 
-.btn--itesm {
-  display: inline-block;
-  width: 4rem;
-  padding: 1rem 1.9rem;
-  color: white;
-  font-size: 1.2rem;
-  background: #0039a6;
+a {
   text-decoration: none;
-  border-radius: 4px;
+  color:#515151;
 }
 
-.header	{ 
-  text-align: center;
-  width: 70%;
-  margin: 0 auto;
-}
-
-  .header--title { 
-    font-size: 3.5rem;
-    padding: 3rem 0;
-    margin: 1rem 0;
-    font-family: 'Roboto', Verdana, Arial;
-    font-weight: 700;
-  }
-
-  .header--profile {
-    border-radius: 50%;
-    width: 24rem;
-    margin: 2rem 0;
-  }
-
-.description--title {
-  font-size: 3.5rem;
-  padding: 2rem 0;
-}
-
-.description--bio {
-  font-size: 1.4rem;
-  width: 40%;
-  text-align: center;
-  margin: 0 auto;
-  padding: 1.5rem 5rem;
-  line-height: 41px;
-}
-
-.courses img {
-	text-align: center;
-	display: inline-block;
-	max-width: 300px;	
-}
-
-.studies--container {
-  background: white;
-  margin: 4rem 0;
-  padding: 5rem 0;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-}
-
-  .studies--title {
-    font-size: 3.5rem;
-    padding: 2rem 0;
-    margin: 1rem 0;
-  }
-
-  .studies img {
-  	max-width: 80%;	
-  }
-
-.itesm, .iteso {
-  display: inline-block;
-  vertical-align: middle;
-  width: 49.8%;
-  text-align: center;
-}
-  .itesm > img,
-  .iteso > img {
-    width: 40rem;
-    height: 20rem;
-  }
-
-  .itesm--title, .iteso--title {
-    font-size: 1rem;
-  }
-
-.latam	{ max-height: 200px; }
-
-.square {
-	width: 250px;
-	height: 250px;
-	background: #48C0D6;
-	display:inline-block;
-	margin-right: 20px;
-	padding-right: 20px;
-}
-
-.center {
-	text-align: center;
-	max-width: 90%;
-}
-
-
-.line li {
-
-	display: inline-block;
-	text-align: center;
-}
-
-.center2 {
-	text-align: center;
-}
-
-.white {
-	color:white;
-
-}
 
 .nav {
   background: #fff;
@@ -154,25 +28,185 @@ p {
 
 .nav .article {
   display: inline-block;
-  width: 13rem;
+  width: 10rem;
   padding: 1rem 1.3rem;
   text-align: center;
+  color:#515151;
+  font-size: 1.15rem;
 }
 
+.logo a {
+  color: #48C0D6;
+}
 
 .navigation--bar, 
 .brand {
     display: inline-block;
     vertical-align: middle;
-    width: 35%;
+    width: 30%;
 }
 
 .navigation--bar {
-    width: 58%;
+    width: 65%;
+}
+
+.brand h1 {
+  text-align: left;
+  padding: 0 7rem;
+  color: #48C0D6;
+  font-size: 40px;
 }
 
 
-.brand h1 {
-    text-align: left;
-    padding: 0 7rem;
+.header--container { 
+  text-align: center;
+  width: 70%;
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+  .header--picture {
+    border-radius: 50%;
+    width: 30rem;
+    padding-bottom: 1rem;
+    margin: 0.5rem 0;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 3.5rem;
+    padding: -1rem 0rem 2rem 0rem;
+    margin: 0rem 0rem 2rem 0rem ;
+    color: #48C0D6;
+   
+  }
+
+
+.description--bio {
+  font-size: 1.4rem;
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem 5rem;
+  line-height: 41px;
+}
+
+
+.studies--container {
+  padding: 2rem 0;
+  margin: 2rem 0;
+  border-top: 1px solid #ddd;
+}
+
+  .school {
+    display: inline-block;
+    vertical-align: middle;
+    width: 49.8%;
+    text-align: center;
+}
+
+  .school img {
+    height: 10rem;
+  }
+
+  .btn--school {
+    display: inline-block;
+    width: 4rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem; 
+    color: white; 
+    font-size: 1.2rem;
+    background: #0039a6;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.courses--container {
+  padding: 2rem 0;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.courses {
+  display: inline-block;
+  width: 29%;
+  text-align: center;
+}
+
+.courses > img {
+    max-height: 12rem; 
+    vertical-align: center;
+}
+
+
+.skills--container {
+  padding: 2rem 1rem;
+  margin: 2rem 1rem;
+  text-align: center;
+}
+
+.skill {
+	width: 18rem;
+	height: 18rem;
+	display:inline-block;
+	margin: 1rem 1rem;
+	padding: 1rem 2rem;
+}
+
+.skill > p {
+  color:white;
+  vertical-align: center;
+  display:block;
+  padding: 1rem;
+  margin: 6rem auto;
+  font-size: 1.4rem;
+}
+
+.one {
+  background: #F25F5C;
+}
+
+.two {
+  background: #FFE066;
+}
+
+.two p {
+  color: #50514F;
+}
+
+.three {
+  background: #247BA0;
+}
+
+
+
+.hobbies--container {
+  padding: 2rem 0;
+  margin: 2rem 0;
+  text-align: center;
+}
+ 
+.hobbies {
+  display: inline-block;
+  text-align: center;
+}
+
+.hobbies > img {
+    height: 14rem; 
+    vertical-align: center;
+    padding: 0rem 1rem;
+}
+
+
+.contact--container {
+  padding: 2rem 1rem;
+  margin: 2rem 1rem;
+	text-align: center;
+}
+
+.contact--body p {
+	display: inline-block;
+  padding: 1rem 2.5rem;
+  text-align: center;
 }
