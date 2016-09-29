@@ -1,3 +1,4 @@
+/* General styles */
 html, 
 body {
 	font-family: "Open Sans", Verdana, Arial; 
@@ -6,7 +7,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 
 p {
   color: #515151;
@@ -19,7 +19,17 @@ a {
   color:#515151;
 }
 
+  .title {
+    text-align: center;
+    font-size: 3.5rem;
+    padding: -1rem 0rem 2rem 0rem;
+    margin: 0rem 0rem 2rem 0rem ;
+    color: #48C0D6;   
+  }
+/* End of General styles */
 
+
+/* Navigation menu */
 .nav {
   background: #fff;
   border-bottom: 1px solid #eee;
@@ -56,8 +66,10 @@ a {
   color: #48C0D6;
   font-size: 40px;
 }
+/* End of navigation menu */
 
 
+/* Header section */
 .header--container { 
   text-align: center;
   width: 70%;
@@ -71,17 +83,10 @@ a {
     padding-bottom: 1rem;
     margin: 0.5rem 0;
   }
-
-  .title {
-    text-align: center;
-    font-size: 3.5rem;
-    padding: -1rem 0rem 2rem 0rem;
-    margin: 0rem 0rem 2rem 0rem ;
-    color: #48C0D6;
-   
-  }
+/* End of header section */
 
 
+/* Bio section */
 .description--bio {
   font-size: 1.4rem;
   width: 40%;
@@ -90,8 +95,10 @@ a {
   padding: 2rem 5rem;
   line-height: 41px;
 }
+/* End of Bio section */
 
 
+/* Studies section */
 .studies--container {
   padding: 2rem 0;
   margin: 2rem 0;
@@ -120,8 +127,10 @@ a {
     text-decoration: none;
     border-radius: 5px;
 }
+/* End of Studies section */
 
 
+/* Studies section */
 .courses--container {
   padding: 2rem 0;
   margin: 2rem 0;
@@ -138,8 +147,10 @@ a {
     max-height: 12rem; 
     vertical-align: center;
 }
+/* End of Courses section */
 
 
+/* Skills section */
 .skills--container {
   padding: 2rem 1rem;
   margin: 2rem 1rem;
@@ -178,9 +189,10 @@ a {
 .three {
   background: #247BA0;
 }
+/* End of Skills section */
 
 
-
+/* Hobbies section */
 .hobbies--container {
   padding: 2rem 0;
   margin: 2rem 0;
@@ -197,8 +209,10 @@ a {
     vertical-align: center;
     padding: 0rem 1rem;
 }
+/* End of Hobbies section */
 
 
+/* Contact section */
 .contact--container {
   padding: 2rem 1rem;
   margin: 2rem 1rem;
@@ -210,3 +224,4 @@ a {
   padding: 1rem 2.5rem;
   text-align: center;
 }
+/* End of Contact section */
