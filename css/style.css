@@ -58,7 +58,7 @@ a {
 
 .navigation--bar {
     width: 65%;
-}
+  }
 
 .brand h1 {
   text-align: left;
@@ -223,5 +223,10 @@ a {
 	display: inline-block;
   padding: 1rem 2.5rem;
   text-align: center;
+}
+
+.contact--body a:hover {
+  color:#BAFF29;
+  text-transform: bold;
 }
 /* End of Contact section */
