@@ -46,6 +46,9 @@ body {
     position: absolute;
     top:100px;
     left:150px;
+    left: 0
+    right: 0;
+    margin: 0 auto;
   }
 
     .hello,
@@ -192,7 +195,7 @@ nav {
 
     .who--title {
       font-size: 1.4rem;
-      margin: 0.5rem 0 1.5rem;
+      margin: 0.5rem 5rem 1.5rem;
       text-transform: capitalize;
     }
 
@@ -202,6 +205,54 @@ nav {
 
     .skills--title {
      font-size: 1.4rem; 
+    }
+
+    .user {
+      background: #490A3D;
+      color:#fff;
+      width: 300px;
+      text-align: left;
+      padding-left: 15px; 
+    }
+
+    .copy {
+      background: #9C034F;
+      color:#fff;
+      width: 250px;
+      text-align: left;
+      padding-left: 15px; 
+    }
+
+    .information {
+      background: #BD1550;
+      color:#fff;
+      width: 260px;
+      text-align: left;
+      padding-left: 15px;
+    }
+
+    .research {
+      background: #E97F02;
+      color:#fff;
+      width: 120px;
+      text-align: left;
+      padding-left: 15px;
+    }
+
+    .code {
+      background:#F8CA00;
+      color:#fff;
+      width: 220px;
+      text-align: left;
+      padding-left: 15px;
+    }
+
+    .visual {
+      background: #8A9B0F;
+      color:#fff;
+      width: 160px;
+      text-align: left;
+      padding-left: 15px;
     }
 
 /* End of About styles */
